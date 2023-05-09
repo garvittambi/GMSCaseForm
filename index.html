@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./index.css">    
+    <title>Case</title>
+</head>
+<body>   
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+    <h3>Customer Case Form</h3>
+<div class="input-container">
+<input type=hidden name="orgid" value="00D2w00000RIRVH">
+</div>
+<div class="input-container">
+<input type=hidden name="retURL" value="http://www.google.com?">
+</div>
+<div class="input-container">
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+</div>
+<div class="input-container">
+<label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+</div>
+<div class="input-container">
+<label for="description">Description</label><textarea name="description"></textarea><br>
+</div>
+<div class="input-container">
+<label for="status">Status</label><select  id="status" name="status"><option value="">--None--</option><option value="New">New</option>
+<option value="Working">Working</option>
+<option value="Escalated">Escalated</option>
+<option value="Closed">Closed</option>
+</select><br>
+</div>
+<div class="input-container">
+<label for="priority">Priority</label><select  id="priority" name="priority"><option value="">--None--</option><option value="High">High</option>
+<option value="Medium">Medium</option>
+<option value="Low">Low</option>
+</select><br>
+</div>
+<div class="input-container">
+<label for="reason">Case Reason</label><select  id="reason" name="reason"><option value="">--None--</option><option value="Installation">Installation</option>
+<option value="Performance">Performance</option>
+<option value="Breakdown">Breakdown</option>
+<option value="Feedback">Feedback</option>
+<option value="Other">Other</option>
+</select><br>
+</div>
+<div class="input-container">
+Product:<select  id="00N2w00000WBBtw" name="00N2w00000WBBtw" title="Product"><option value="">--None--</option>
+<option value="GMS/Services/1001">Car Washing Service</option>
+<option value="GMS/Services/1002">Engine Repairing Service</option>
+<option value="GMS/Services/1003">Body Repairing Services</option>
+</select><br>
+</div>
+<div class='btn-container'>
+<input type="submit" name="submit">
+</div>
+</form>
+</body>
+</html>
+
